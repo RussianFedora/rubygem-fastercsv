@@ -8,7 +8,7 @@
 Summary:	Faster, smaller and cleaner replacement to standard CSV library
 Name:		rubygem-%{gemname}
 Version:	1.5.5
-Release:	1%{?dist}
+Release:	2%{?dist}
 License:	GPLv2 or Ruby
 Group:		Development/Languages
 URL:        http://%{gemname}.rubyforge.org/
