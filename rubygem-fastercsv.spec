@@ -6,7 +6,7 @@
 Name:		rubygem-%{gemname}
 Summary: 	Faster, smaller and cleaner replacement to standard CSV library
 Version: 	1.5.5
-Release: 	1%{?dist}
+Release: 	3%{?dist}
 Group: 		Development/Languages
 License: 	GPLv2+ or Ruby
 URL:        http://%{gemname}.rubyforge.org/
@@ -51,6 +51,6 @@ rm -rf %{buildroot}
 %{gemdir}/specifications/%{gemname}-%{version}.gemspec
 
 %changelog
-* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 1.5.5-1
+* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 1.5.5-3
 - Initial package
 - AutoReqProv no ( missing for Requires: /usr/local/bin/ruby )
